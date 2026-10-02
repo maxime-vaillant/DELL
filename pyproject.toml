@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dell"
+version = "0.1.0"
+description = "Spiking neural networks for event-camera vision: end-to-end vs. block-local learning"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["dell*"]

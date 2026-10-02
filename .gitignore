@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+.env
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Packaging
+*.egg-info/
+build/
+dist/
+
+# Data & run artifacts (not code; regenerate or fetch separately)
+data/
+checkpoints/
+out/
+export/
+mlruns/
+*.ckpt
+*.pt
+*.pth
